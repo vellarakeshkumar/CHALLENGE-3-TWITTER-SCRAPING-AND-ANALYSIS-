@@ -1,0 +1,5 @@
+docker
+tweepy
+pandas
+json
+Django 

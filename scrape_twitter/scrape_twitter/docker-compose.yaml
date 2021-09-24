@@ -1,0 +1,12 @@
+version: "2"
+services: 
+  django-apache2:
+    build: .
+    container_name: django-deployment
+    ports:
+      - '8005:80'
+      - '3501:3500'
+      - '4701:81'
+    volumes: 
+      - "/www:/var/www/html"
+
